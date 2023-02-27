@@ -2,5 +2,6 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('', views.galeria),
+    path('', views.home),
+    path('imagem.html/',views.imagem)
 ]
